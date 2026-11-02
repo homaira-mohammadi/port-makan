@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Port Makan">
+  <rect width="64" height="64" rx="14" fill="#D2361F"/>
+  <g transform="translate(32 33) scale(0.74) translate(-32 -35)">
+    <path d="M32 61C32 61 11 40.5 11 26a21 21 0 0 1 42 0c0 14.5-21 35-21 35Z" fill="#FFFFFF"/>
+    <rect x="18" y="25" width="28" height="3.4" rx="1.7" fill="#D2361F"/>
+    <path d="M20 28.4h24a12 11 0 0 1-24 0Z" fill="#D2361F"/>
+    <path d="M27.5 21.5c-2.2-2.4 2.2-4.2 0-7.2M36.5 21.5c-2.2-2.4 2.2-4.2 0-7.2" fill="none" stroke="#D2361F" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+</svg>

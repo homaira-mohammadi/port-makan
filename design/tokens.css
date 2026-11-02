@@ -1,0 +1,87 @@
+/* Port Makan — generated from design/tokens.json */
+:root {
+  --surface-100: #fbfaf5;
+  --surface-200: #ffffff;
+  --surface-300: #f1eee4;
+  --line: #e3ddd0;
+  --ink: #24170f;
+  --ink-muted: #6b5d52;
+  --sambal: #d2361f;
+  --sambal-strong: #a82812;
+  --on-sambal: #ffffff;
+  --padi: #1e6b45;
+  --padi-tint: #e3f1e8;
+  --kunyit: #c28400;
+  --kunyit-tint: #fff3cc;
+  --danger: #b42318;
+  --focus: var(--padi);
+  --cat-warung: #b4471a;
+  --cat-mamak: #7a4a2a;
+  --cat-kopitiam: #1f5e7a;
+  --cat-hawker: #a36a00;
+  --cat-pasar-malam: #6b3fa0;
+  --cat-cafe: #2f7d5b;
+  --cat-other: #5c6670;
+  --font-display: "Bricolage Grotesque", "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --radius-s: 6px;
+  --radius-m: 12px;
+  --radius-l: 20px;
+  --radius-pill: 999px;
+  --tap-min: 44px;
+  --pin-size: 36px;
+  --shadow-card: 0 1px 2px rgba(36,23,15,0.08), 0 4px 12px rgba(36,23,15,0.06);
+  --shadow-pin: 0 2px 4px rgba(36,23,15,0.35);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface-100: #17130f;
+    --surface-200: #211b16;
+    --surface-300: #2c241d;
+    --line: #3a3027;
+    --ink: #f5eee6;
+    --ink-muted: #b8aa9c;
+    --sambal: #ff6a4d;
+    --sambal-strong: #ff8a72;
+    --on-sambal: #1a0e08;
+    --padi: #4cc38a;
+    --padi-tint: #183a29;
+    --kunyit: #ffc53d;
+    --kunyit-tint: #3a2e0e;
+    --danger: #ff7a6b;
+    --shadow-card: 0 1px 2px rgba(0,0,0,0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --surface-100: #17130f;
+  --surface-200: #211b16;
+  --surface-300: #2c241d;
+  --line: #3a3027;
+  --ink: #f5eee6;
+  --ink-muted: #b8aa9c;
+  --sambal: #ff6a4d;
+  --sambal-strong: #ff8a72;
+  --on-sambal: #1a0e08;
+  --padi: #4cc38a;
+  --padi-tint: #183a29;
+  --kunyit: #ffc53d;
+  --kunyit-tint: #3a2e0e;
+  --danger: #ff7a6b;
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.5);
+  color-scheme: dark;
+}
+.display-xl { font-family: var(--font-display); font-size: 40px; line-height: 44px; font-weight: 800; letter-spacing: -0.02em; }
+.display-l { font-family: var(--font-display); font-size: 28px; line-height: 32px; font-weight: 800; letter-spacing: -0.01em; }
+.title { font-family: var(--font-display); font-size: 20px; line-height: 26px; font-weight: 700; }
+.heading { font-family: var(--font-sans); font-size: 17px; line-height: 24px; font-weight: 700; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 24px; font-weight: 400; }
+.body-s { font-family: var(--font-sans); font-size: 14px; line-height: 20px; font-weight: 400; }
+.label { font-family: var(--font-sans); font-size: 13px; line-height: 16px; font-weight: 600; letter-spacing: 0.02em; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 16px; font-weight: 500; }
